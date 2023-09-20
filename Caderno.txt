@@ -1,0 +1,33 @@
+Caderno para aprender java.
+
+Write once run everywhere / Significa o meio utilizado para se escrever o código uma ves e distribuir para varias outras plataformas de comunicação.
+
+liguagem de alto nível são liguagens de que o ser humano consegue intender com mais facilidade, já liguagens de baixo nível são liguagens que os computadores conseguem intender mais facilmente.
+
+
+Java é uma liguagem de alto nível.
+
+Os arquivos java são arquivos .java mas ele acaba virando arquivos .class atraves de compiladores.
+
+O termo para o prosseso de tradução da liguagem java para uma liguagem que o computador consegue entender é JVM (Java Virtual Machine Máquina Virtual Java).
+
+Para os programas javas rodarem nos computadores os computadores precição ter JRE (Java runtime environment).
+
+O kite de feramentas de comandos que seram usados no java é chamado de JDK (Java Development KIT).
+
+O aplicativo utilizado para criar arquivos em formato de java são chamados de IDE (Integrated Development Environment).
+
+Para o curso iremos utilizar a IDE - IntelliJ IDEA Community Edition essa IDE é a mis semelhante para a IDE de desenvolvimento de android sendo assim ela foi escolhida o aplicativo para linha de aprendizagem do curso.
+
+Após inicializar o IntelliJ e visto que pode ser criado um arquivo apos criar esse arquivo ira ser criado altomaticamente outros arquivos para o auxílio do arquivo principal, que seria o código que está na pasta src das pastas criadas e mantem os arquivos lá em .java e .class.
+
+E visto que pode ser feito uma criação de uma bloco de porgramação no IntelliJ clicando com o botão direito em cima da pasta src e indo em cima da categoria New e em seguida clicando na opção Java Class. É indicado que os nomes dos seus arquivos sempre comessem com letra maiúscula no início da palavra e o resto tenha letra minúscula lembrando que caracteres especiais como espações e * ? / ´ \ não são permitidos.
+
+Lembrate: letras MAIÚSCULAS e letras minúscula dão diferenças na programação, então preste atenção.
+
+Na configuração do java todas as intruções devem terminar com ; , caso ao contrario o jáva não vai entender que você encerrou a linha de programação e vai dar um erro.
+
+
+
+
+
