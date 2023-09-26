@@ -21,13 +21,27 @@ Para o curso iremos utilizar a IDE - IntelliJ IDEA Community Edition essa IDE é
 
 Após inicializar o IntelliJ e visto que pode ser criado um arquivo apos criar esse arquivo ira ser criado altomaticamente outros arquivos para o auxílio do arquivo principal, que seria o código que está na pasta src das pastas criadas e mantem os arquivos lá em .java e .class.
 
-E visto que pode ser feito uma criação de uma bloco de porgramação no IntelliJ clicando com o botão direito em cima da pasta src e indo em cima da categoria New e em seguida clicando na opção Java Class. É indicado que os nomes dos seus arquivos sempre comessem com letra maiúscula no início da palavra e o resto tenha letra minúscula lembrando que caracteres especiais como espações e * ? / ´ \ não são permitidos.
+E visto que pode ser feito uma criação de uma bloco de porgramação no IntelliJ clicando com o botão direito em cima da pasta src (Source / Fonte) e indo em cima da categoria New e em seguida clicando na opção Java Class. É indicado que os nomes dos seus arquivos sempre comessem com letra maiúscula no início da palavra e o resto tenha letra minúscula lembrando que caracteres especiais como espações e * ? / ´ \ não são permitidos.
 
 Lembrate: letras MAIÚSCULAS e letras minúscula dão diferenças na programação, então preste atenção.
 
 Na configuração do java todas as intruções devem terminar com ; , caso ao contrario o jáva não vai entender que você encerrou a linha de programação e vai dar um erro.
 
+Dentro da programação temos alguns padroes de configuração que são seguidos pelos desenvolvedores e seria legal eu aprender:
 
+Snakecase: Quando escreve a palavra utilizando o espaço como _ , como por exemplo: verson_one
 
+Pascalcase: Quando utilizamos a primeira letra da palavra como maiúscula e não colocamos espaço, como por exemplo: VersonOne
 
+Camelcase: Quando Utilizamos a primeira letra da palavra como maiúscula mais na primeira palavra utilizamos tudo em minúscula, como por exemplo: versonOne
+
+O metodo main é obrigatório para dizer para o nosso programa qual é a primeira função que ele deve fazer ao iniciar a leitura do código em java, o nome desse parte da programação é entry-point.
+
+A execução da programação sempre é executada de maneira de cima para baixo e também sempre é execultadodo a programação que está dentro dos conchetes {}
+
+Em jáva o espações na programação não são importantes eles são iguinorados pelo programa, porem os espaços servem para deixar o código mais fácil de entender, então é recomendado utilizar, e o nome dessa pratica se chama de Indentação.
+
+Na programação do java nos podemos nanipular informações colocando elas em variaveis ou vetores. podemos fazer também programações de funções (Tambem pode ser chamado de métodos) bases, isso quer dizer que a partir do momente que nos chamarmos a intrução ele ira executar a linha da funsão que nos já estabelecemos.
+
+Através do // podemos colocar anotações no código ajudando ele a ficar organizado e deixar conque outras pessoas que possam intender o nosso código.
 
