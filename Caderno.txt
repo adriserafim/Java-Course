@@ -45,3 +45,30 @@ Na programação do java nos podemos nanipular informações colocando elas em v
 
 Através do // podemos colocar anotações no código ajudando ele a ficar organizado e deixar conque outras pessoas que possam intender o nosso código.
 
+System.out.println("O que você quer que mosrte"); / Ele mostra na parte executavel o que você escreveu dentro do parenteses. Detalhes caso você coloque por exemplo (2+3) dentro do  paremtese ele vai fazer a soma desses valores e vai te mostrar 5. Para demostrar calculos não resolvidos ou mostrar mensagem você tem que colocar "" dentro do parentese como por exemplo ("Olá").
+
+var example = 6; / Isso é um código de criação de variável, nesse codigo eu estou criando uma variável com o nome example que recebe o numero 6. Quando é dado um unico igula isso significa recebe. var vem da palavra em inglês Variable. Para essa variável receber testo em sua menoria você tem que colocar a mensagem entre "" como por exemplo var exemplo = "Exemplo";.
+
+Dentro do java nos temos quatro tipos de variáveis:
+Variaveis -> tipo: Textos (Strings)
+Variaveis -> tipo: Numeros (Int)
+Variaveis -> tipo: Numeros fracionados (Doubles)
+Variaveis -> tipo: Booleanas (verdadeiro / falso)
+
+String example = ", Olá"; / Meio antigo de se falar uma variavel de texto. Verções mais recentes do java não contem mais esse tipo de código. Isso pode ser trocado por var.
+
+int example = 10; // Coloca numetros inteiros. Isso pode ser trocado por var.
+
+double example = 24.30; / Coloca numetros quebrados. Isso pode ser trocado por var.
+
+boolean example = true; / Representeção boleanas ( verdadeiro / falso ). Isso pode ser trocado por var.
+
+Voce não presisa declarar o valor da variável quando você a cria você pode criar a variavel e depois no código declarar qual é essa variável como por exemplo:
+int example;
+...
+...
+...
+example = 10;
+Quando for fazer isso no seu código lembre-sé que é bom utilizar o int, double e boolean ao invés do var, pois assim você recebera um alerta de erro ao executar o arquivo caso a variável esteja com informação incorreta.
+
+
