@@ -71,4 +71,34 @@ int example;
 example = 10;
 Quando for fazer isso no seu código lembre-sé que é bom utilizar o int, double e boolean ao invés do var, pois assim você recebera um alerta de erro ao executar o arquivo caso a variável esteja com informação incorreta.
 
+Dentro do java nos temos dois tipos de erro de programação escriata do código, que são erros de compilação e erro de sintances e temos um erro de execução (Exception / Exceção) que é o erro durante a programação em si, sendo assim durante a execução do programa foi visto um comando que é inviavel a sua execução, como por exemplo a divisão de uma numero por zero.
+Erros de sintances é quando você escreve algo errado ou esquece um ponto ou palavra de comando, já erro de compilação e quando você escreve para uma feramenta exercer uma função que ela não consegue exercer. Como por exemplo:
+String nome = "David" // Erro de sintances
+int number = "Hello"; // Erro de compilação
+
+Para copilar os seus aquivos em ".class" que é o tipo de arquivo que o computador entende você tem que ir no prompt de comando e digitar as seguintes coias:
+Explicação:
+C:"Caso esteja em um disco local diferente é so mudalo escrevendo a letra do disco local com os dois pontos e dando enter" (Disco local):\(Caminho até a paasta onde o arquivo .java está salvo "Dica esta na pasta src")
+Exemplo: D:>cd D:\Users\Adriano\Documents\Java\Projeto\AtividadeB\src
+
+Agora escreva dir na frente e ele ira mostrar as descrição do que está na pasta
+Exemplo: D:\Users\Adriano\Documents\Java\Projeto\AtividadeB\src>dir
+
+Após verificar que os arquivos dentro da pasta, escreva javac e vai colocar o nome do arquivo que nos vamos mudar "Lembre de colocar o dominio .java"
+Exemplo: D:\Users\Adriano\Documents\Java\Projeto\AtividadeB\src>javac Main.java
+
+Agora foi criado um arquivo .class na mesma pasta do arquivo .java, caso você deseja conficar no prompt se ele esta la é so digitar dir e ele irá te mostra ele lá. e caso você queira executalo é so escrever java e colocar o nome do programa como no exemplo abaixo
+Exemplo: D:\Users\Adriano\Documents\Java\Projeto\AtividadeB\src>java Main
+
+Dando seguencia ao curso vamos fazer as funções que são declarações de execução de furmulas que podem ser repetidas, para criar uma função é só escrever:
+static void (Nome da função)(Paremetros que a função ira utilizar) {(Função que deseja que sejá feita)}
+Exemplo:
+static void example(int x, int y){}
+
+Para executar a função é so sitar o nome dela durante o seu codigo e em seguida colocar entre parenteses os parametros que ela ira utilizar. Exemplo:
+example(5, 16);
+
+Utilizando a ideologia que o que está dentro do () é as definições das variáveis que seram utilizadas então da ara se definir que apartir do momento que nos escrevemos public static void main(String[] args) nos estamos definindo que dentro dessa programação iremos utilizar a função String e que o nome dessa variável é args. Foi explicado que os [] são uma criação de infinitas variaveis com o nome args no programa, e para acessa-las você tem que escrever args[0], mas eu não consegui manupular essas variáveis muito bem, basicamente so consegui fazer com que a pessoa que tivesse executando o projeto conseguise manupular, para mais detales vejá no arquivo AtividadeD.
+
+Para executar o arquivo AtividadeD eu precisei me passar como o executor e para isso tive que ir para janela Run e abrir a tela de Edit Configurations..., lá tive que criar um executor e falar o que eu queria falar como variável.  
 
