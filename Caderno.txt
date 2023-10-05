@@ -78,7 +78,7 @@ int number = "Hello"; // Erro de compilação
 
 Para copilar os seus aquivos em ".class" que é o tipo de arquivo que o computador entende você tem que ir no prompt de comando e digitar as seguintes coias:
 Explicação:
-C:"Caso esteja em um disco local diferente é so mudalo escrevendo a letra do disco local com os dois pontos e dando enter" (Disco local):\(Caminho até a paasta onde o arquivo .java está salvo "Dica esta na pasta src")
+C:"Caso esteja em um disco local diferente é so mudalo escrevendo a letra do disco local com os dois pontos e dando enter" (Disco local):\(Caminho até a paasta onde o arquivo .java está salvo "Dica esta na pasta src")(Observação: cd que é o comando que sera utilizado significa Change Director que traduzindo que dizer Mudar diretório)
 Exemplo: D:>cd D:\Users\Adriano\Documents\Java\Projeto\AtividadeB\src
 
 Agora escreva dir na frente e ele ira mostrar as descrição do que está na pasta
@@ -100,5 +100,11 @@ example(5, 16);
 
 Utilizando a ideologia que o que está dentro do () é as definições das variáveis que seram utilizadas então da ara se definir que apartir do momento que nos escrevemos public static void main(String[] args) nos estamos definindo que dentro dessa programação iremos utilizar a função String e que o nome dessa variável é args. Foi explicado que os [] são uma criação de infinitas variaveis com o nome args no programa, e para acessa-las você tem que escrever args[0], mas eu não consegui manupular essas variáveis muito bem, basicamente so consegui fazer com que a pessoa que tivesse executando o projeto conseguise manupular, para mais detales vejá no arquivo AtividadeD.
 
-Para executar o arquivo AtividadeD eu precisei me passar como o executor e para isso tive que ir para janela Run e abrir a tela de Edit Configurations..., lá tive que criar um executor e falar o que eu queria falar como variável.  
+Para executar o arquivo AtividadeD eu precisei me passar como o executor e para isso tive que ir para janela Run e abrir a tela de Edit Configurations..., lá tive que criar um executor e falar o que eu queria falar como variável.
+
+int ex = Integer.parseInt(Variável desejada); / É a função que faz a conversão de uma variável em texto para número. 
+
+Para fazer os programas e necessário avaliar suas variáveis em condições, isso significa que apartir de como é a variavel analisada em questão ele ira tomar uma caminho diferente para seguir, sendo assim fazendo como se fosse um fluxograma. Para fazer isso utilizamos a função if(Condição a ser aceita) que ira jugar se aquela variável é aceita pela condição e caso ela não for aceita ela seguira pelo caminho fornecido pelo else. Nos podemos colocar mais caminhos aceitos com a função else if(Condição a ser aceita). (Observação: else tem que ser a ultima condição na linha de comando, caso você coloque um else if após o else o seu programa vai dar erro ou vai ficar muito estranho)
+
+equals(Example Text) / E a função que vai verificar se os texto escrito dentro do () é igual a um outro desejado.
 
